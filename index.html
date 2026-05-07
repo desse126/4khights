@@ -1003,9 +1003,103 @@
                 </div>
             </div>
 
-            <!-- Extras (synced to POS) -->
+            <!-- Specials (synced to POS) -->
+            <div class="menu-category fade-in">
+                <h3>⭐ Specials</h3>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">3 Magwinya &amp; Tea/Coffee</div>
+                        <div class="menu-item-desc">Three fresh fat cakes with hot tea or coffee</div>
+                    </div>
+                    <div class="menu-item-price">R 15.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">3 Magwinya, Vienna &amp; Chips</div>
+                        <div class="menu-item-desc">Magwinya with a Vienna and a side of chips</div>
+                    </div>
+                    <div class="menu-item-price">R 25.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">3 Magwinya, Russian &amp; Chips</div>
+                        <div class="menu-item-desc">Magwinya with a Russian and a side of chips</div>
+                    </div>
+                    <div class="menu-item-price">R 30.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">Traditional Plate (base)</div>
+                        <div class="menu-item-desc">Hearty traditional plate — ask in store for the day's option</div>
+                    </div>
+                    <div class="menu-item-price">R 35.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">Milkota-Meal</div>
+                        <div class="menu-item-desc">A kota and a milkshake — the full combo</div>
+                    </div>
+                    <div class="menu-item-price">R 45.00</div>
+                </div>
+            </div>
+
+            <!-- Extras &amp; Sides (synced to POS) -->
             <div class="menu-category fade-in">
                 <h3>Extras &amp; Sides</h3>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">Atchar</div>
+                    </div>
+                    <div class="menu-item-price">R 5.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">Single Magwinya</div>
+                    </div>
+                    <div class="menu-item-price">R 2.50</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">3 Magwinya &amp; Polony</div>
+                    </div>
+                    <div class="menu-item-price">R 10.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">3 Magwinya &amp; Vienna</div>
+                    </div>
+                    <div class="menu-item-price">R 15.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">3 Magwinya &amp; Chips</div>
+                    </div>
+                    <div class="menu-item-price">R 20.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">3 Magwinya &amp; Russian</div>
+                    </div>
+                    <div class="menu-item-price">R 22.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">Mince &amp; Magwinya</div>
+                    </div>
+                    <div class="menu-item-price">R 25.00</div>
+                </div>
 
                 <div class="menu-item">
                     <div class="menu-item-info">
@@ -1054,6 +1148,26 @@
                         <div class="menu-item-name">Large Chips</div>
                     </div>
                     <div class="menu-item-price">R 30.00</div>
+                </div>
+            </div>
+
+            <!-- Drinks (synced to POS) -->
+            <div class="menu-category fade-in">
+                <h3>🥤 Drinks</h3>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">Tea/Coffee</div>
+                    </div>
+                    <div class="menu-item-price">R 10.00</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-info">
+                        <div class="menu-item-name">Milkshake (base)</div>
+                        <div class="menu-item-desc">Ask in store for available flavours</div>
+                    </div>
+                    <div class="menu-item-price">R 25.00</div>
                 </div>
             </div>
         </div>
@@ -1219,20 +1333,36 @@
 
         const ITEM_IMAGES = {
             // Signature kotas — paths will be e.g. "images/fullhouse-15.webp" once shot
-            'Fullhouse 15':       null,
-            'Yokubambisa':        null,
-            'Something Nyama':    null,
-            'Better':             null,
-            'Bodese':             null,
-            'Big Boss':           null,
+            'Fullhouse 15':                       null,
+            'Yokubambisa':                        null,
+            'Something Nyama':                    null,
+            'Better':                             null,
+            'Bodese':                             null,
+            'Big Boss':                           null,
+            // Specials
+            '3 Magwinya & Tea/Coffee':            null,
+            '3 Magwinya, Vienna & Chips':         null,
+            '3 Magwinya, Russian & Chips':        null,
+            'Traditional Plate (base)':           null,
+            'Milkota-Meal':                       null,
             // Extras / sides
-            'Egg':                null,
-            'Vienna':             null,
-            'Russian':            null,
-            'Polcheese':          null,
-            'Small Chips':        null,
-            'Medium Chips':       null,
-            'Large Chips':        null,
+            'Atchar':                             null,
+            'Single Magwinya':                    null,
+            '3 Magwinya & Polony':                null,
+            '3 Magwinya & Vienna':                null,
+            '3 Magwinya & Chips':                 null,
+            '3 Magwinya & Russian':               null,
+            'Mince & Magwinya':                   null,
+            'Egg':                                null,
+            'Vienna':                             null,
+            'Russian':                            null,
+            'Polcheese':                          null,
+            'Small Chips':                        null,
+            'Medium Chips':                       null,
+            'Large Chips':                        null,
+            // Drinks
+            'Tea/Coffee':                         null,
+            'Milkshake (base)':                   null,
         };
 
         const modal = document.getElementById('itemModal');
